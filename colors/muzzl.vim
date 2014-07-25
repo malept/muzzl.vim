@@ -17,7 +17,7 @@ let g:colors_name = "muzzl"
 
 " GUI
 highlight Normal       guifg=#d3d7cf guibg=#2e3436 
-highlight Search       guifg=#2e3436 guibg=#cc0000 gui=bold
+highlight Search       guifg=#c3d7cf guibg=#cc0000 gui=bold
 highlight Visual       guifg=#404040               gui=bold
 highlight Cursor       guifg=#2e3436 guibg=#8ae234 gui=bold
 highlight Special      guifg=#fcaf3e
@@ -44,7 +44,7 @@ highlight PMenu        guifg=#2e3436 guibg=#ad7fa8
 
 " Console
 highlight Normal     ctermfg=LightGrey   ctermbg=Black
-highlight Search     ctermfg=Black       ctermbg=Red   cterm=NONE
+highlight Search     ctermfg=White       ctermbg=Red   cterm=NONE
 highlight Visual                                       cterm=reverse
 highlight Cursor     ctermfg=Black       ctermbg=Green cterm=bold
 highlight Special    ctermfg=Brown
